@@ -1,0 +1,314 @@
+ @font-face 
+ {
+    font-family: 'LemonMilkbold';
+    src: url('Ressources/Police/Font/LemonMilkbold.woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face
+{
+	font-family: 'CODE_Light';
+	src: url('Ressources/police/Font/CODE_Light.woff');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face
+{
+	font-family: 'Bellsmore Brush';
+	src:url('Ressources/Police/Font/Bellsmore Brush.woff');
+	font-style: normal;
+	font-weight: normal;
+}
+
+/*---------HEADER TAFF START----------*/
+html,body
+{
+	margin:0;
+	padding:0;
+}
+
+#blockpage
+{
+	background: url('ressources/army.jpg');	
+}
+#page-daccueil
+{
+	display: flex;
+	justify-content: center;
+	background: url('ressources/sombregloryy.png');
+	height: 1000px;
+	box-shadow: 6px 6px 25px black;
+	font-family: LemonMilkbold;
+}
+
+#page-daccueil a
+{
+	color: #554602;
+}
+
+#page-daccueil a:hover
+{
+	color: lime;
+}
+nav
+{
+	font-family: LemonMilkbold, arial, badaboom bb;
+} 
+
+ul
+{
+	display: flex;
+	list-style-type: none;
+	justify-content: center;
+}
+.slogan h1
+{
+	padding-left: 13%;
+	text-decoration: overline lime;
+}
+.slogan h1:hover
+{
+	color: rgb(255, 238, 0);
+}
+.slogan h2
+{
+	padding-left: 22%;
+	text-decoration: overline lime;
+}
+.slogan ul
+{
+	padding-right: 20%;
+}
+
+nav, ul, li
+{
+	margin:0 10px;
+}
+
+/*------HEADER TAFF END------*/
+
+
+
+
+/*------SECTION VIDEOS START----*/
+#videos
+{
+	display: flex;
+	flex-direction: row-reverse;
+	margin-top: 35px;
+	margin-left: 10%;
+	margin-right: 10%;
+	background:url('ressources/sombreglory_69.png');
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 6px 6px 25px black;
+}
+aside
+{
+	font-family: LemonMilkbold;
+	padding-left: 5%;
+}
+aside h2:hover
+{
+	color: lime;
+}
+#bob-marley
+{
+	margin-bottom: 5%;;
+}
+#hinata
+{
+	margin-bottom: 5%;
+}
+#drill
+{
+	margin-bottom: 5%;
+}
+.drop
+{
+	color: white;
+	font-size: 40px;
+}
+/*--l'article ci-dessous fait office d'articles contenus dans la section 'vidéo', comme dans la section 'blog'---*/
+article
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-content: space-around;
+	padding-left: 5%;
+}
+article h2,h4
+{
+	font-family: LemonMilkbold;
+}
+article h2:hover
+{
+	color: rgb(25, 0, 255);
+}
+
+.vidz-articles h2:hover
+{
+	color: lime;
+}
+.vidz-articles h4:hover
+{
+	color: lime;
+}
+
+
+/*------SECTION VIDEOS END------*/
+
+
+/*------SECTION BLOG START------*/
+
+#blog
+{
+	display: flex;
+	flex-direction: row-reverse;
+	background: url('ressources/studionice.jpg');
+	height: 1500px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 35px;
+	margin-bottom: 2px;
+	padding-left: 5%;
+	padding-right: 5%;
+	box-shadow: 5px 5px 20px black;
+}
+#logos h3
+{
+	font-family: LemonMilkbold;
+}
+#logos h3:hover
+{
+	color:rgb(25, 0, 255)
+}
+#logo1
+{
+	filter: drop-shadow(5px 5px 10px black);
+	margin-bottom: 80px;
+}
+#logo2
+{
+	margin-bottom: 80px;
+	filter: drop-shadow(5px 5px 10px black);
+}
+#logo3
+{
+	filter: drop-shadow(5px 5px 10px black);
+}
+
+/*----------SECTION BLOG END-----------*/
+
+
+/*---------SECTION BEATS STORE START----------*/
+
+/*-------SECTION BEATS STORE END----------*/
+
+
+/*--------SECTION PRICING START----------*/
+#pricing
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	background: url('Ressources/sombreglory_69.png');
+	height: 650px;
+	box-shadow: 1px 1px 50px black;
+}
+
+.mp3 
+{
+	height: 500px;
+	border: 7px black solid;
+	filter: drop-shadow(5px 5px 10px black);
+	transition: transform 1s;
+}
+#prix-mp3 img:hover
+{
+	transform: scale(1.2);
+}
+.wav
+{
+	height: 500px;
+	border: 7px black solid;
+	filter: drop-shadow(5px 5px 10px black);
+	transition: transform 1s;
+}
+#prix-wav img:hover
+{
+	transform: scale(1.2);
+}
+.wav-pistes
+{
+	height:500px;
+	border: 7px black solid;
+	filter: drop-shadow(5px 5px 10px black);
+	transition: transform 1s;
+}
+#prix-wav-pistes img:hover
+{
+	transform: scale(1.2);
+}
+
+.unlimited-wav-pistes
+{
+	height: 500px;
+	border: 7px black solid;
+	filter: drop-shadow(5px 5px 10px black);
+	transition: transform 1s;
+}
+#prix-unlimited-wav-pistes img:hover
+{
+	transform: scale(1.2);
+}
+.exclusive
+{
+	height: 500px;
+	border: 7px black solid;
+	filter: drop-shadow(5px 5px 10px black);
+	transition: transform 1s;
+}
+#prix-exclusive img:hover
+{
+	transform: scale(1.2);
+}
+/*--------SECTION PRICING END------------*/
+
+
+/*-------SECTION CONTACT START----------*/
+
+#contact
+{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	font-family: lemonmilkbold;
+	color: blanchedalmond;
+	background: url('ressources/contactus.png');
+	height: 700px;
+	margin-top: 2%;
+	margin-left: 1%;
+	margin-right: 1%;
+	box-shadow: 6px 1px 40px aqua;
+}
+
+/*--------SECTION CONTACT END-----------*/
+
+
+/*--------SECTION FOOTER START----------*/
+footer
+{
+	font-size: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(201, 201, 197);
+	opacity: 0.6;
+	background-color: black;
+	height: 60px;
+}
+/*-------SECTION FOOTER END------------*/
+/*

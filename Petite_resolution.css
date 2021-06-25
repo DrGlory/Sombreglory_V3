@@ -1,0 +1,51 @@
+@media all and (max-width: 1280px)
+{
+    #page-daccueil ul
+    {
+       flex-direction: column; 
+    }
+    .slogan h2 
+    {
+        padding-left: 13%;
+    }
+    /*-----SECTION VIDEOS EN RESPONSIVE------*/
+    #videos
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #bob-marley iframe
+    {
+        max-height: 95%;
+        max-width: 95%;
+    }
+    #hinata iframe
+    {
+        max-height: 95%;
+        max-width: 95%;
+    }
+    #drill iframe
+    {
+        max-height: 95%;
+        max-width: 95%;
+    }
+    /*-------SECTION VIDEOS END-------*/
+
+    /*-------SECTION BLOG EN RESPONSIVE-------*/
+    #blog
+    {
+        flex-direction: column-reverse;
+
+    }
+    #logos
+    {
+        max-height: 1%;
+    }
+    /*-----SECTION BLOG END-----*/
+
+    /*-----SECTION PRICING-----*/
+    #pricing
+    {
+        height: 3100px;
+    }
+}
